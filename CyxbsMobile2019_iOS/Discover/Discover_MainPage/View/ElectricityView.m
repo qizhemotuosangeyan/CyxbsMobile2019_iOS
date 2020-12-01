@@ -144,6 +144,8 @@
     if ([self.defaults objectForKey:@"ElectricFee_time"]!= NULL) {
         time.text = [self.defaults objectForKey:@"ElectricFee_time"];
     }else {
+        time.text = @"0";
+
         time.text = @"加载失败";
     }
     if (@available(iOS 11.0, *)) {
@@ -185,7 +187,8 @@
     }
     UILabel *degree = [[UILabel alloc]init];//右边数字
     self.electricFeeDegree = degree;
-    if ([self.defaults objectForKey:@"ElectricFee_degree"]){
+    NSString *electricFeeDegree = [self.defaults objectForKey:@"ElectricFee_degree"];
+    if (electricFeeDegree && electricFeeDegree!= NULL){
         degree.text = [NSString stringWithFormat:@"%@", [self.defaults objectForKey:@"ElectricFee_degree"]];
         
     }else {

@@ -62,12 +62,12 @@
 		<key>Alamofire.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>31</integer>
+			<integer>26</integer>
 		</dict>
 		<key>Bagel.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>26</integer>
+			<integer>27</integer>
 		</dict>
 		<key>Bugly.xcscheme_^#shared#^_</key>
 		<dict>
@@ -77,7 +77,7 @@
 		<key>CocoaAsyncSocket.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>34</integer>
 		</dict>
 		<key>FMDB.xcscheme</key>
 		<dict>
@@ -177,12 +177,12 @@
 		<key>RxCocoa.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>34</integer>
+			<integer>31</integer>
 		</dict>
 		<key>RxRelay.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>33</integer>
 		</dict>
 		<key>RxSwift.xcscheme_^#shared#^_</key>
 		<dict>
@@ -212,12 +212,12 @@
 		<key>SnapKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>29</integer>
 		</dict>
 		<key>SwiftyJSON.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>30</integer>
 		</dict>
 		<key>TZImagePickerController.xcscheme</key>
 		<dict>
